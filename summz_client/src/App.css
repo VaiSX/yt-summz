@@ -1,0 +1,54 @@
+/* src/App.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #1a1a1a, #333);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    background: linear-gradient(to right, #800080, #4b0082);
+    color: white;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background: linear-gradient(to right, #800080, #4b0082);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #6a0080, #3a0052);
+  }
+  
